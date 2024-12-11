@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0;
+        padding:0;}
+        .clear {
+            clear: both;
+        }
+        body {
+            background-color: rgba(255, 252, 220, 0.731);
+        }
+    
+      header nav {
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        background: rgba(255, 252, 220, 0.731);
+      }
+
+      header {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        background: rgba(255, 252, 220, 0.731);
+      }
+
+      header #logo {
+        width: 60px;
+        height: 100%;
+        float: left;
+        margin-top: 20px;
+      }
+
+      header ul {
+        width: 80%;
+        height: 100%;
+        float: right;
+        list-style: none;
+      }
+
+      header li {
+        margin-left:20px;
+        height: 100;
+        float: right;
+        line-height: 80px;
+        list-style: none;
+        text-align: right;
+        
+      }
+        a {
+            text-decoration: none;
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            color:rgba(255, 226, 129, 0.731);
+        }
+
+        #sub_nav {
+            margin-left: 100px;
+        }
+        #sub_menu {
+            float: left;
+            margin-top: 130px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+        #sub_navv {
+            font-family: 'pretandard';
+            font-size: 18px;
+            margin-top: 90px;
+        }
+
+        #sec {
+            height: 500px;
+            float: left;
+            margin-left: 110px;
+            margin-top: 50px;
+        }
+
+        #title {
+            font-size: 34px;
+            font-family: 'pretandard';
+        }
+
+        #sec_img {
+            margin-top: 170px;
+        }
+
+        #asi {
+            width:850px;
+            height: 500px;
+            float: right;
+            margin-top: 45px;
+            margin-right: 50px;
+        }
+
+        #box {
+            width: 100%;
+            height: 100px;
+            margin-top: -300px;
+        }
+
+        #sutitle {
+            font-size: 30px;
+            font-family: 'pretandard';
+            margin-top: 160px;
+            color: #4e89ff;
+        }
+        #sutitle1 {
+            margin-top: 20px;
+            font-size: 18px;
+            font-family: 'pretandard';
+        }
+
+        #sutitle2 {
+            font-family: 'pretandard';
+            font-size: 16px;
+        }
+        #sutitle3 {
+            font-family: 'pretandard';
+            font-size: 14px;
+            font-weight: lighter;
+            color: red;
+        }
+      
+        footer {
+            width: 100% ;
+            height: 130px;
+            margin-top: 137px;
+            background-color: #121212;
+        }
+        #footer_logobox{
+            width: 100%;
+            height: 110px;
+            margin: 0 auto;
+        }
+        #footer_logo {
+            float: left;
+            margin: 40px 0 0 30px;
+        }
+        #name {
+            margin-left: 70px;
+            font-family: 'pretandard';
+            font-size: 18px;
+            color: rgba(255, 252, 220, 0.731);
+        }
+        #sodyd {
+            float: right;
+            margin: 40px 30px 0 0;
+            color: white;
+            list-style-type: none;
+        }
+       
+    </style>
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <header>
+            <a href="index.html"><div id="logo"><img src="img/logo.png" width="170%" height="60%"></div></a>
+          <ul>
+              <li><a href="work.html">WORK</a></li>
+              <li><a href="combination.html">COMBINATION</a></li>
+             <li><a href="7_meaning1.html">7-ELEVEN</a></li> 
+            <li><a href="GS25_meaning.html"  style="color: #ffac4e;">GS25</a></li>
+            <li><a href="CU_meaning1.html">CU</a></li>
+          </ul>
+        </header>
+      </nav>
+
+    <nav id="sub_nav">
+        <div id="sub_menu">
+            <ul id="sub_navv">
+                <li><a href="GS25_meaning.html" style="color: #4e89ff;">Meaning</a></li><br>
+                <li><a href="GS25_membership.html" >Membership</a></li><br>
+                <li><a href="GS25_2024.html">202412 Event</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="sec">
+        <p id="title"><b>Meaning</b></p>
+        <div id="sec_img"><img src="img/wldptm-45.png" width="380" height="140"></div>
+    </section>
+
+    <aside id="asi">
+        <p id="sutitle"><b>GS25</b></p>
+        <p id="sutitle1"><b>고객만족을 최우선 가치로, 고객과 경영주 중심의 <span id="red"><u>상생경영을 실천</u></span>하여 고객과 모두에게 신뢰받고 있습니다.<br></b></p><br>
+        <p id="sutitle2">GS25의 의미는 따로 보여주지 않아 의미를 추측하고 있습니다. <br><br> ① 골드 스타 (Gold Star) <br> ② 좋은 서비스 (Good Service) <br> ③ 좋은 만족 (Good satis-faction)</p><br>
+        <p id="sutitle3">상생경영이란? <br> 대기업과 중고기업 들이 서로 협력하여 부족한 경쟁력을 강화하고, 모두가 이익을 보는 경영 전략</p>
+    </aside>
+
+    
+    <div class="clear"></div> <!-- float 속성 해제-->
+
+    <footer>
+        <div id="footer_logobox">
+            <div id="footer_logo"><img src="img/logo1-38.png" width="155" height="50"> </div>
+            <ul id="sodyd">
+                <li>계원예술대학교 디지털미디어디자인과 하연서</li>
+                <li>TEL : 010-1234-5678</li>
+                <li>E-mail : hays050413@gamil.com</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

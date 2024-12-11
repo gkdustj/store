@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0;
+        padding:0;}
+        .clear {
+            clear: both;
+        }
+        body {
+            background-color: rgba(255, 252, 220, 0.731);
+        }
+        header nav {
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        background: rgba(255, 252, 220, 0.731);
+      }
+
+      header {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        background: rgba(255, 252, 220, 0.731);
+      }
+
+      header #logo {
+        width: 60px;
+        height: 100%;
+        float: left;
+        margin-top: 20px;
+      }
+
+      header ul {
+        width: 80%;
+        height: 100%;
+        float: right;
+        list-style: none;
+      }
+
+      header li {
+        margin-left:20px;
+        height: 100;
+        float: right;
+        line-height: 80px;
+        list-style: none;
+        text-align: right;
+        
+      }
+        #main_img {
+            width: 100%;
+            height: 653.5px;
+            
+            
+        }
+         a {
+            text-decoration: none;
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            color:rgba(255, 226, 129, 0.731);
+        }
+
+        #sec {
+            height: 500px;
+            float: left;
+            margin-left: 110px;
+            margin-top: 70px;
+
+        }
+
+        #title {
+            font-size: 34px;
+            font-family: 'pretandard';
+        }
+
+        #sec_img {
+            margin-top: 65px;
+        }
+
+        .work {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            gap: 80px;
+            margin-top: 100px;
+            margin-right: 50px;
+        }
+        .member {
+            width: 320px;
+            height: 180px;
+        }
+        #ad {
+            margin-left:90px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        #add {
+            margin-left:50px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        #addd {
+            margin-left:100px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+       
+
+        footer {
+            width: 100% ;
+            height: 130px;
+            margin-top: 118px;
+            background-color: #121212;
+        }
+        #footer_logobox{
+            width: 100%;
+            height: 110px;
+            margin: 0 auto;
+        }
+        #footer_logo {
+            float: left;
+            margin: 40px 0 0 30px;
+        }
+        #name {
+            margin-left: 70px;
+            font-family: 'pretandard';
+            font-size: 18px;
+            color: rgba(255, 252, 220, 0.731);
+        }
+        #sodyd {
+            float: right;
+            margin: 40px 30px 0 0;
+            color: white;
+            list-style-type: none;
+        }
+       
+    
+        
+            
+        
+    </style>
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <header>
+            <a href="index.html"><div id="logo"><img src="img/logo.png" width="170%" height="60%"></div></a>
+          <ul>
+              <li><a href="work.html"  style="color: #ffac4e;">WORK</a></li>
+              <li><a href="combination.html">COMBINATION</a></li>
+             <li><a href="7_meaning1.html">7-ELEVEN</a></li> 
+            <li><a href="GS25_meaning.html">GS25</a></li>
+            <li><a href="CU_meaning1.html">CU</a></li>
+          </ul>
+        </header>
+      </nav>
+
+    <section id="sec">
+        <p id="title"><b>편순이의 생활</b></p>
+
+        <div class="work">
+            <div class="member">
+                <img src="img/KakaoTalk_20241211_055809134.jpg" width="300" height="280">
+                <div id="ad"><b>집가고 싶은 나</b></div> 
+            </div>
+
+            <div class="member">
+                <img src="img/KakaoTalk_20241211_153038872.jpg" width="300" height="280">
+                <div id="ad"><b>물건 정리하는 나</b></div> 
+            </div>
+
+            <div class="member">
+                <img src="img/KakaoTalk_20241211_180036482.jpg" width="300" height="280">
+                <div id="addd"><b>선물 받은 나</b></div> 
+            </div>
+
+            <div class="member">
+                <img src="img/KakaoTalk_20241211_184157526.jpg" width="300" height="280">
+                <div id="add"><b>실수해서 담배를 사게 된 나</b></div> 
+            </div>
+    
+            
+        </div>
+    </section>
+
+    
+    <div class="clear"></div> <!-- float 속성 해제-->
+
+    <footer>
+        <div id="footer_logobox">
+            <div id="footer_logo"><img src="img/logo1-38.png" width="155" height="50"> </div>
+            <ul id="sodyd">
+                <li>계원예술대학교 디지털미디어디자인과 하연서</li>
+                <li>TEL : 010-1234-5678</li>
+                <li>E-mail : hays050413@gamil.com</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
